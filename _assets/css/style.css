@@ -4,6 +4,16 @@
     list-style-type: none;
 }
 
+/* Utility custom */
+.bg_blue_cc{
+    background-color: #1B72E8;
+}
+
+.bg-dark-cc{
+    background-color: rgba(22, 90, 186, .7);
+}
+
+
 /* Navbar */
 
 .navbar{
@@ -44,6 +54,10 @@
     height: calc(100vh - 60px);
     background: red;
     overflow-y: auto;
+}
+
+.breadcrumb_custom .fa-angles-right{
+    font-size: 13px;
 }
 
 /* Media Query */

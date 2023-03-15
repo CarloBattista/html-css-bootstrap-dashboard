@@ -4,8 +4,46 @@
     list-style-type: none;
 }
 
-body {
-    background-color: #000 !important;
+/* Navbar */
+
+.navbar{
+    height: 60px;
+}
+
+/* SideBar */
+
+.sideBar{
+    background-image: url(../_resources/imgs/sidebar-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: calc(100vh - 60px);
+    background-color: #051E34;
+}
+
+.textLink{
+    display: none;
+}
+
+.btn .fa-solid{
+    width: 28px;
+    height: 20px;
+}
+
+.btn-link:hover{
+    background-color: rgba(255, 255, 255, .6);
+}
+
+/* Main Dashboard */
+.main_dashboard{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    width: calc(100% - 70px);
+    height: calc(100vh - 60px);
+    background: red;
+    overflow-y: auto;
 }
 
 /* Media Query */
@@ -17,5 +55,14 @@ body {
 
 /* Desktop */
 @media only screen and (min-width: 1000px) {
-    
+    .sideBar{
+        width: 150px;
+    }
+    .textLink{
+        display: block;
+    }
+    .main_dashboard{
+        left: 150px;
+        width: calc(100% - 150px);
+    }
 }

@@ -52,7 +52,6 @@
     left: 70px;
     width: calc(100% - 70px);
     height: calc(100vh - 60px);
-    background: red;
     overflow-y: auto;
 }
 
@@ -100,6 +99,16 @@
     gap: 1em;
 }
 
+/* Hero */
+.hero_main{
+    width: 100%;
+}
+
+.hero_left,
+.hero_right{
+    width: 100%;
+}
+
 /* Media Query */
 
 /* Tablet */
@@ -124,6 +133,14 @@
     
     .inpuCap{
         width: 20%;
+    }
+
+    .hero_left{
+        width: 60%;
+    }
+
+    .hero_right{
+        width: 40%;
     }
 }
 

@@ -17,11 +17,50 @@
 <body>
 
     <div class="mainView">
-        <div class="header sticky-top bg-white d-flex align-items-center">
-            <a href="./index.html" class="container_logo d-flex align-items-center justify-content-center">
-                <img class="logo_forWeb" src="./_assets/_resources/imgs/logo.svg" alt="Boolean logo web" width="133">
-                <img class="logo_forMob" src="./_assets/_resources/imgs/mobile-logo.png" alt="Boolean logo mobile" width="50">
-            </a>
+        <div class="header sticky-top bg-white d-flex gap-3 align-items-center justify-content-between">
+            <div>
+                <a href="./index.html" class="container_logo p-2 d-flex align-items-center justify-content-center">
+                    <img class="logo_forWeb" src="./_assets/_resources/imgs/logo.svg" alt="Boolean logo web" width="133">
+                    <img class="logo_forMob" src="./_assets/_resources/imgs/mobile-logo.png" alt="Boolean logo mobile" width="50">
+                </a>
+            </div>
+            <div class="boxSearch">
+                <div class="boxSearch d-flex align-items-center justify-content-center">
+                <span class="iconSearch d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input type="text" class="inpuSearch bg-darkWhite-cc border-0 rounded" placeholder="Prova a cercare: Lezioni di Laravel">
+            </div>
+            </div>
+            <div>
+                <div class="container_icon d-flex align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-link p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-list-ul text-secondary"></i>
+                        </button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-link p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-circle-question text-secondary"></i>
+                        </button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-link p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-ellipsis-vertical text-secondary"></i>
+                        </button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-link p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell text-warning"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                          <li><button class="dropdown-item" type="button">Profilo</button></li>
+                          <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                          <li><button class="dropdown-item" type="button">Logout</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="sideBar p-2 d-flex flex-column justify-content-between">
             <div class="side_top">

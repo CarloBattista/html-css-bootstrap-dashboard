@@ -13,6 +13,9 @@
     background-color: rgba(22, 90, 186, .7);
 }
 
+.bg-darkWhite-cc{
+    background-color: #E5E5E5;
+}
 
 /* Navbar */
 
@@ -34,7 +37,29 @@
 }
 
 .logo_forWeb{
+    width: 100%;
     display: none;
+}
+
+.boxSearch,
+.inpuSearch{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.inpuSearch{
+    height: 45px;
+    padding: 0 35px;
+}
+
+.iconSearch{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
 }
 
 /* SideBar */
@@ -213,6 +238,7 @@ td {
         display: block;
     }
     .logo_forMob{
+        width: 100%;
         display: none;
     }
     .sideBar{

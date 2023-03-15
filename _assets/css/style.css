@@ -109,6 +109,45 @@
     width: 100%;
 }
 
+.large_width{
+    width: 50%;
+    text-align: left;
+}
+
+.large_width img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.table tbody td{
+    font-size: 13px;
+}
+
+.tableR{
+    font-size: 0.8rem;
+}
+
+.table .btn{
+    width: 30px;
+    height: 30px;
+}
+
+.table .btn .fa-solid{
+    font-size: 13px;
+    width: auto;
+    height: auto;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.disable_onMobile{
+    display: none !important;
+}
+
 /* Media Query */
 
 /* Tablet */
@@ -141,6 +180,10 @@
 
     .hero_right{
         width: 40%;
+    }
+
+    .disable_onMobile{
+        display: table-cell !important;
     }
 }
 

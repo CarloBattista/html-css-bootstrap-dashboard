@@ -76,6 +76,10 @@
     font-size: 20px;
 }
 
+.offcanvas.offcanvas-end{
+    width: 100%;
+}
+
 /* Media Query */
 
 /* Tablet */
@@ -85,6 +89,10 @@
     }
     .for_web{
         display: block;
+    }
+    .offcanvas.offcanvas-end{
+        width: auto;
+        min-width: 450px;
     }
 }
 

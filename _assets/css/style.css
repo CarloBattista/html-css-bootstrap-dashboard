@@ -60,11 +60,24 @@
     font-size: 13px;
 }
 
+.for_mob{
+    display: block;
+}
+
+.for_web{
+    display: none;
+}
+
 /* Media Query */
 
 /* Tablet */
 @media only screen and (min-width: 780px) {
-    
+    .for_mob{
+        display: none;
+    }
+    .for_web{
+        display: block;
+    }
 }
 
 /* Desktop */

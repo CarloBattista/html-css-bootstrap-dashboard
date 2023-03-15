@@ -77,7 +77,83 @@
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <form>
+                                <div class="container_input d-flex align-items-center justify-content-between">
+                                    <div class="mb-3">
+                                        <label for="inputName" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="inputSurname" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="inputSurname" aria-describedby="surnameHelp" required>
+                                    </div>
+                                </div>
+                                <div class="container_input d-flex align-items-center justify-content-between">
+                                    <div class="mb-3">
+                                        <label for="inputEmail" class="form-label">Email</label>
+                                        <div class="input-group flex-nowrap">
+                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="inputPassword" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword" aria-describedby="passwordHelp" required>
+                                    </div>
+                                </div>
+                                <div class="container_input d-flex align-items-center justify-content-between">
+                                    <div class="mb-3">
+                                        <label for="inputEmail" class="form-label">Indirizzo Email</label>
+                                        <div class="input-group flex-nowrap">
+                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="inputPassword" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword" aria-describedby="passwordHelp" required>
+                                    </div>
+                                </div>
+                                <div class="container_input d-flex align-items-center justify-content-between">
+                                    <div class="mb-3">
+                                        <label for="inputAddress" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="inputAddress" aria-describedby="addressHelp" required>
+                                    </div>
+                                </div>
+                                <div class="container_input d-flex align-items-center justify-content-between">
+                                    <div class="mb-3" style="width: 52%;">
+                                        <label for="inputCity" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="inputCity" aria-describedby="cityHelp" required>
+                                    </div>
+                                    <div class="mb-3" style="width: 30%;">
+                                        <label for="inputState" class="form-label">Stato</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Scegli...</option>
+                                            <option value="1">Italy</option>
+                                            <option value="2">United States of America</option>
+                                            <option value="3">Boolean</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3" style="width: 20%;">
+                                        <label for="inputCAP" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="inputCAP" maxlength="5" aria-describedby="capHelp" required>
+                                    </div>
+                                </div>
+                                <div class="container_input d-flex align-items-center justify-content-between">
+                                    <div class="mb-3">
+                                        <label for="inputGroupFile02" class="form-label">Foto</label>
+                                        <div class="input-group mb-3">
+                                            <input type="file" class="form-control" id="inputGroupFile02">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">Seleziona per proseguire</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <button type="reset" class="btn btn-warning">Svuota</button>
+                            </form>
                         </div>
                     </div>
                 </div>

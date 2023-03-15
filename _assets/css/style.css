@@ -80,6 +80,20 @@
     width: 100%;
 }
 
+/* Form Canvas */
+.container_input{
+    gap: 1em;
+}
+
+.mb-3{
+    width: 100%;
+}
+
+.form-control{
+    width: 100% !important;
+    gap: 1em;
+}
+
 /* Media Query */
 
 /* Tablet */
@@ -91,7 +105,7 @@
         display: block;
     }
     .offcanvas.offcanvas-end{
-        width: auto;
+        width: 800px;
         min-width: 450px;
     }
 }

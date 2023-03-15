@@ -89,6 +89,12 @@
     width: 100%;
 }
 
+.inputCity,
+.inputState,
+.inpuCap{
+    width: 100%;
+}
+
 .form-control{
     width: 100% !important;
     gap: 1em;
@@ -97,7 +103,7 @@
 /* Media Query */
 
 /* Tablet */
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
     .for_mob{
         display: none;
     }
@@ -107,6 +113,17 @@
     .offcanvas.offcanvas-end{
         width: 800px;
         min-width: 450px;
+    }
+    .inputCity{
+        width: 52%;
+    }
+    
+    .inputState{
+        width: 30%;
+    }
+    
+    .inpuCap{
+        width: 20%;
     }
 }
 

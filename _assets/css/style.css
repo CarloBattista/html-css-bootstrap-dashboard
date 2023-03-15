@@ -3,3 +3,19 @@
     list-style: none;
     list-style-type: none;
 }
+
+body {
+    background-color: #000 !important;
+}
+
+/* Media Query */
+
+/* Tablet */
+@media only screen and (min-width: 780px) {
+    
+}
+
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    
+}

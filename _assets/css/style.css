@@ -5,55 +5,55 @@
 }
 
 /* Utility custom */
-.bg_blue_cc{
+.bg_blue_cc {
     background-color: #1B72E8;
 }
 
-.bg-dark-cc{
+.bg-dark-cc {
     background-color: rgba(22, 90, 186, .7);
 }
 
-.bg-darkWhite-cc{
+.bg-darkWhite-cc {
     background-color: #E5E5E5;
 }
 
 /* Navbar */
 
-.header{
+.header {
     height: 60px;
 }
 
-.dropdown-toggle::after{
+.dropdown-toggle::after {
     display: none;
 }
 
-.btn_forWeb{
+.btn_forWeb {
     display: none;
 }
 
-.container_logo{
+.container_logo {
     width: 70px;
     height: 60px;
 }
 
-.logo_forWeb{
+.logo_forWeb {
     width: 100%;
     display: none;
 }
 
 .boxSearch,
-.inpuSearch{
+.inpuSearch {
     position: relative;
     z-index: 1;
     width: 100%;
 }
 
-.inpuSearch{
+.inpuSearch {
     height: 45px;
     padding: 0 35px;
 }
 
-.iconSearch{
+.iconSearch {
     position: absolute;
     z-index: 2;
     top: 0;
@@ -62,9 +62,14 @@
     height: 100%;
 }
 
+.inpuSearch::placeholder,
+.inpuSearch[type=text] {
+    font-size: 12px;
+}
+
 /* SideBar */
 
-.sideBar{
+.sideBar {
     background-image: url(../_resources/imgs/sidebar-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -74,21 +79,21 @@
     background-color: #051E34;
 }
 
-.textLink{
+.textLink {
     display: none;
 }
 
-.btn .fa-solid{
+.btn .fa-solid {
     width: 28px;
     height: 20px;
 }
 
-.btn-link:hover{
+.btn-link:hover {
     background-color: rgba(255, 255, 255, .6);
 }
 
 /* Main Dashboard */
-.main_dashboard{
+.main_dashboard {
     position: absolute;
     top: 60px;
     left: 70px;
@@ -97,85 +102,85 @@
     overflow-y: auto;
 }
 
-.breadcrumb_custom .fa-angles-right{
+.breadcrumb_custom .fa-angles-right {
     font-size: 13px;
 }
 
-.for_mob{
+.for_mob {
     display: block;
 }
 
-.for_web{
+.for_web {
     display: none;
 }
 
-.students_text{
+.students_text {
     font-size: 15px;
 }
 
-.students_online_counter{
+.students_online_counter {
     font-size: 20px;
 }
 
-.offcanvas.offcanvas-end{
+.offcanvas.offcanvas-end {
     width: 100%;
 }
 
 /* Form Canvas */
-.container_input{
+.container_input {
     gap: 1em;
 }
 
-.mb-3{
+.mb-3 {
     width: 100%;
 }
 
 .inputCity,
 .inputState,
-.inpuCap{
+.inpuCap {
     width: 100%;
 }
 
-.form-control{
+.form-control {
     width: 100% !important;
     gap: 1em;
 }
 
 /* Hero */
-.hero_main{
+.hero_main {
     width: 100%;
 }
 
 .hero_left,
-.hero_right{
+.hero_right {
     width: 100%;
 }
 
-.large_width{
+.large_width {
     width: 50%;
     text-align: left;
 }
 
-.large_width img{
+.large_width img {
     width: 30px;
     height: 30px;
     object-fit: cover;
 }
 
-.table tbody td{
+.table tbody td {
     font-size: 13px;
 }
 
-.tableR{
+.tableR {
     font-size: 0.8rem;
 }
 
-.table .btn{
+.table .btn {
     width: 30px;
     height: 30px;
 }
 
-.table .btn .fa-solid{
+.table .btn .fa-solid {
     font-size: 13px;
     width: auto;
     height: auto;
@@ -186,7 +191,7 @@ td {
     text-align: center;
 }
 
-.disable_onMobile{
+.disable_onMobile {
     display: none !important;
 }
 
@@ -194,64 +199,78 @@ td {
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
-    .for_mob{
+    .for_mob {
         display: none;
     }
-    .for_web{
+
+    .for_web {
         display: block;
     }
-    .offcanvas.offcanvas-end{
+
+    .offcanvas.offcanvas-end {
         width: 800px;
         min-width: 450px;
     }
-    .inputCity{
+
+    .inputCity {
         width: 52%;
     }
-    
-    .inputState{
+
+    .inputState {
         width: 30%;
     }
-    
-    .inpuCap{
+
+    .inpuCap {
         width: 20%;
     }
 
-    .hero_left{
+    .hero_left {
         width: 60%;
     }
 
-    .hero_right{
+    .hero_right {
         width: 40%;
     }
 
-    .disable_onMobile{
+    .disable_onMobile {
         display: table-cell !important;
+    }
+
+    .inpuSearch::placeholder,
+    .inpuSearch[type=text] {
+        font-size: 15px;
     }
 }
 
 /* Desktop */
 @media only screen and (min-width: 1000px) {
-    .container_logo{
+    .container_logo {
         width: 150px;
     }
-    .logo_forWeb{
+
+    .logo_forWeb {
         display: block;
     }
-    .logo_forMob{
+
+    .logo_forMob {
         width: 100%;
         display: none;
     }
-    .sideBar{
+
+    .sideBar {
         width: 150px;
     }
-    .textLink{
+
+    .textLink {
         display: block;
     }
-    .main_dashboard{
+
+    .main_dashboard {
         left: 150px;
         width: calc(100% - 150px);
     }
-    .btn_forWeb{
+
+    .btn_forWeb {
         display: flex;
     }
 }
